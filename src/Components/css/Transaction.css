@@ -1,0 +1,13 @@
+.transactions {
+    height: 450px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.404);
+    display: grid;
+    place-items: center;
+}
+
+.transactions>p {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}

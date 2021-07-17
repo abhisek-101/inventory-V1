@@ -1,0 +1,38 @@
+.dashboard__card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.dashboard__chart {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart__chart {
+    flex: .6;
+    padding: 5px;
+}
+
+.chart__pie {
+    padding: 5px;
+    flex: .3;
+}
+
+.dashboard__row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactionCards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    color: lightgray;
+}

@@ -1,0 +1,38 @@
+.container {
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.database {
+    height: 100px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.database__id {
+    display: flex;
+}
+
+.btn1 {
+    padding: 10px;
+    border: 2px solid white;
+    background-color: rgb(15, 126, 218);
+    color: white;
+    border-radius: 12px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.database__download,
+.database__import {
+    flex: 1;
+}
+
+.database__import>p {
+    color: gray;
+    font-size: 12px;
+}

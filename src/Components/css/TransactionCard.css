@@ -1,0 +1,31 @@
+.transactionCard {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.transactionCard__items {
+    height: 250px;
+    overflow: scroll;
+}
+
+.transactionCard__title {
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0px 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.list:nth-child(even) {
+    background-color: lightgray;
+}

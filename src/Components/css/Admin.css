@@ -1,0 +1,56 @@
+.wrapper {
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.admin {
+    margin-top: 16px;
+    padding: 0px 10px;
+}
+
+.admin>h4 {
+    text-transform: uppercase;
+    height: 30px;
+}
+
+.admin>button {
+    height: 35px;
+    width: 150px;
+    line-height: 35px;
+    margin-top: 10px;
+    color: white;
+    background-color: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.admin__table {
+    margin-top: 20px;
+}
+
+.admin__table>h4 {
+    color: white;
+    background-color: black;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.admin__list {
+    display: flex;
+    justify-content: space-between;
+    min-height: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    padding: 0px 5px;
+}
+
+.admin__list:nth-child(even) {
+    background-color: lightgray;
+}
